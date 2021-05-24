@@ -13,7 +13,7 @@ class Solution:
             Returns:
             int: number of islands
 
-           """
+        """
         # Check that grid is not empty
         if not self.grid:
             return 0
@@ -35,7 +35,7 @@ class Solution:
             row_index (int): position index for rows
             col_index (int): position index for columns
 
-           """
+        """
         # Checking that row_index and col_index are not out of boundary
         # Also checking that the value is not "0"
         if row_index < 0 or row_index >= len(self.grid) \
